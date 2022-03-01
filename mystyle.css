@@ -60,3 +60,42 @@
     height: 50px;
 }
 /* esercizio 6 */
+
+.ex-6-img:hover{
+    filter: grayscale(100%);
+
+}
+/* esercizio7 */
+
+.ex-7-img{
+    transition: 10s;
+}
+
+.ex-7-img:hover{
+    filter:brightness(200%) ;
+    filter:sepia(100%) ;
+   
+
+}
+/* esercizio 8 */
+
+.ex-8-img{
+    transition: all 10s ease-out;
+
+}
+.ex-8-img:hover{
+    filter:  grayscale(100%) sepia(100%);
+    border-radius: 30px;
+    
+}
+/* esercizio 9 */
+.ex-9-img{
+    transition: all 5s ease-out;
+
+}
+.ex-9-img:hover{
+    filter:  grayscale(100%) sepia(100%);
+    border-radius: 30px;
+    transform: scale(2);
+}  
+/* esercizio 10 */
