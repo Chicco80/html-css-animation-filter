@@ -99,3 +99,35 @@
     transform: scale(2);
 }  
 /* esercizio 10 */
+.ex-10-icon{
+    
+    animation: ruota 5s linear infinite;
+}
+
+@keyframes ruota {
+    0% {
+         transform: rotate(1turn);
+    }
+}
+/* esercizio 11*/
+
+.ex-11-icon:hover{
+    animation: cerchio 3s linear;
+}
+
+@keyframes cerchio {
+    0% {
+        transform: rotate(0);
+
+    }
+    75% {
+        transform: rotate(315deg);
+    }
+    100% {
+        transform: rotate(0);
+    }
+}
+
+/* esercizio 12 */
+
+
